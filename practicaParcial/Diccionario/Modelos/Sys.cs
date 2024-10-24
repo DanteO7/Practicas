@@ -104,6 +104,19 @@
                     string[] datos = producto.Split("-");
 
                     //desde aca es personalizado dependiendo del ejercicio ////////////
+                    //foreach(var linea in lineas)
+                    //{
+                    //    var datos = linea.Split(", ");
+                    //    string nombre = datos[0];
+                    //    // parsear un string a tipo Enum.
+                    //    Plataforma plataforma = (Plataforma)Enum.Parse(typeof(Plataforma), datos[1]);
+                    
+                    //    decimal precio = decimal.Parse(datos[2]);
+                    //    int stock = int.Parse(datos[3]);
+                    
+                    //    Videojuego juego = new(nombre, plataforma, precio, stock);
+                    //    catalogo.Add(juego);
+                    //}
 
                     Producto productoLeido = new Producto(int.Parse(datos[0]), datos[1]);
 
